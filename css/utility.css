@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=DM+Sans&family=Inter:wght@100;200&family=M+PLUS+Rounded+1c:wght@300&family=Montserrat:wght@200&family=Overpass:wght@100&family=Playfair+Display&family=Ramaraja&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+
+:root {
+    --first-color: rgb(66, 63, 75);
+    --second-color: rgb(246, 132, 17);
+    --font1: 'M PLUS Rounded 1c', sans-serif;
+    --font2: 'Playfair Display', serif;
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.my-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.my-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-input {
+    width: 40%;
+    margin: 7px 0px;
+    padding: 4px 5px;
+    border: 2px solid;
+    border-radius: 8px;
+    font-family: var(--font1);
+}
